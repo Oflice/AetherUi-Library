@@ -95,6 +95,12 @@ end
 
 function lib:Init(player)
 
+for _, v in pairs(player.PlayerGui:GetChildren()) do
+	if v.Name == "AetherUI" then
+		v:Destroy()
+	end
+end
+	
 local AetherUI = Instance.new("ScreenGui")
 AetherUI.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 AetherUI.Name = "AetherUI"
