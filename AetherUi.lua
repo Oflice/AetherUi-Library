@@ -238,6 +238,7 @@ Namee.TextColor3 = Color3.new(1,1,1)
 Namee.TextScaled = true
 Namee.TextSize = 14
 Namee.TextWrapped = true
+Namee.Text = player.Name
 Namee.BackgroundColor3 = Color3.new(1,1,1)
 Namee.BackgroundTransparency = 1
 Namee.BorderColor3 = Color3.new(0,0,0)
